@@ -3,3 +3,39 @@
     padding: 0;
     margin: 0;
 }
+
+
+.wrapper{padding: 10px;}
+
+.search-area{margin-bottom: 50px;}
+
+
+.search-area label{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.search-area input{
+    padding: 7px;
+    font-size: 18px;
+}
+
+
+.users{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user{
+    min-width: 200px;
+    border: 1px solid #000;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.user .name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
